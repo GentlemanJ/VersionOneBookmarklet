@@ -1,0 +1,1 @@
+javascript:(function(){var index, len;var elems=document.getElementsByClassName('group-by-header');for (index=0, len = document.getElementsByClassName('group-by-header').length; index<len; index++) {elems[index].onclick=function(){var content = this.nextSibling; content.style.display = (content.style.display=='none'? '' : 'none') ;}}})();
